@@ -720,14 +720,14 @@ svg:hover {
 
 
 .button_active {
-    background-image: url(/icon/burger-menu.svg);
+    background-image: url(./icon/burger-menu.svg);
     background-repeat: no-repeat;
     width: 28px;
     height: 28px;
 }
 
 .button_close {
-    background-image: url(/icon/close.svg);
+    background-image: url(./icon/close.svg);
     background-repeat: no-repeat;
     width: 28px;
     height: 28px;
