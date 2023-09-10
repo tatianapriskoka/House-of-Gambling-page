@@ -640,13 +640,12 @@ body {
     color: #fff;
     text-decoration: none;
     transition: all 0.15s;
-
-    &:hover {
-        color: #478BF9;
-        text-decoration: underline;
-    }
 }
 
+.nav-footer:hover {
+    color: #478BF9;
+    text-decoration: underline;
+}
 
 .social {
     color: #fff;
