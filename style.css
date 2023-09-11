@@ -245,6 +245,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 40px;
+    margin-bottom: 18px;
 }
 
 .scroll {
@@ -407,6 +408,7 @@ body {
     .header {
         justify-content: end;
         padding: 10px 14px;
+        margin-bottom: 0px;
     }
 
     .container {
@@ -485,6 +487,7 @@ body {
         flex-direction: column;
         align-items: center;
         max-width: 570px;
+        margin-bottom: 33px;
     }
 
     .home_title,
@@ -590,7 +593,8 @@ body {
 @media (max-width: 425px) {
     .home_title {
         font-size: 46px;
-        line-height: 46px;
+        line-height: 50px;
+        margin-bottom: 12px;
     }
 
     .wrap_line {
@@ -692,10 +696,8 @@ svg:hover {
     .footer {
         height: auto;
         padding: 40px 20px 20px 20px;
-
-        border: 2px solid var(--main-blue);
+        border: 2px solid #478BF9;
         border-bottom: none;
-
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
@@ -706,6 +708,7 @@ svg:hover {
         gap: 10px;
         font-size: 14px;
         font-weight: 400;
+        padding-bottom: 10px;
     }
 
     .social {
@@ -714,7 +717,24 @@ svg:hover {
         gap: 8px;
     }
 
+    .social>p {
+        margin-bottom: 8px;
+    }
 
+    .btn>svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .btn {
+        border-radius: 24px;
+        padding: 15px 20px;
+    }
+
+    .btn-blue {
+        width: 260px;
+        margin: 0px 10px;
+    }
 }
 
 

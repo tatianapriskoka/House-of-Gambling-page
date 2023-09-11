@@ -7,6 +7,7 @@ const homePage = document.querySelector('.home');
 const btnLanguage = document.querySelector('.btn-lang')
 
 
+
 window.addEventListener('resize', () => {
     if (window.screen.width < 992) {
         columnOne.forEach((item) => item.setAttribute('src', './icon/drow.svg'))
