@@ -435,7 +435,9 @@ body {
         display: none;
     }
 
-
+    .header_btn>.btn {
+        padding: 8px;
+    }
 
     .header_list {
         flex-direction: column;
@@ -458,7 +460,7 @@ body {
         gap: 5px;
     }
 
-    .nav_btn .btn {
+    .nav_btn>.btn {
         padding: 13px 18px;
     }
 
